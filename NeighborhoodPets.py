@@ -11,22 +11,17 @@ class DuplicateNameError(Exception):
 
 class NeighborhoodPets:
     """
-
-
-
+    A class to represent NeighborhoodPets
     """
     def __init__(self):
         """
-
-
-
+        Initializes a method for pets
         """
         self.__pets = {}
 
     def add_pet(self, name, species, owner):
         """
-
-        Adds a pet.
+        Adds a pet
 
         :param name: adds a name
         :param species: adds a species
@@ -42,8 +37,7 @@ class NeighborhoodPets:
 
     def delete_pet(self, name):
         """
-
-        Deletes a pet.
+        Deletes a pet
 
         :param name:
         :return: deleting a pet
@@ -53,8 +47,7 @@ class NeighborhoodPets:
 
     def get_owner(self, name):
         """
-
-        Gets the owner of the pet.
+        Gets the owner of the pet
 
         :param name:
         :return: owner name
@@ -65,8 +58,7 @@ class NeighborhoodPets:
 
     def save_as_json(self, filename):
         """
-
-        Saves as a JSON file.
+        Saves as a JSON file
 
         :param filename: json.file
         :return: json file
@@ -76,8 +68,7 @@ class NeighborhoodPets:
 
     def read_json(self, filename):
         """
-
-        Reads from the JSON file.
+        Reads from the JSON file
 
         :param filename: json.file
         :return: json file
@@ -87,8 +78,7 @@ class NeighborhoodPets:
 
     def get_all_species(self):
         """
-
-        Gets all species of pets.
+        Gets all species of pets
 
         :return: pet species
         """
